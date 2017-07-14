@@ -26,7 +26,7 @@ int main(int argc, const char *argv[])
 		lua_pop(L, 1);
 	}
 
-	cout << "-- write data(cppvar) from c++ --" << endl;
+	cout << "-- write data(cppvar) from c++ to lua --" << endl;
 	lua_pushnumber(L, 1.1);
 	lua_setglobal(L, "cppvar");
 
